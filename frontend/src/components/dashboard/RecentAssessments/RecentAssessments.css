@@ -1,0 +1,102 @@
+.no-assessments {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--color-text-secondary);
+}
+
+.assessments-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.assessment-item {
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  border: 2px solid transparent;
+}
+
+.assessment-item:hover {
+  background-color: var(--color-bg-tertiary);
+  transform: translateX(4px);
+  border-color: var(--color-primary-blue);
+}
+
+.assessment-item:focus-visible {
+  outline: 2px solid var(--color-primary-blue);
+  outline-offset: 2px;
+}
+
+.assessment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.assessment-state {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.assessment-time {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.assessment-score {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.score-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.score-number {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-blue);
+}
+
+.assessment-metrics {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.metric-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.metric-value {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .assessment-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+
+  .assessment-metrics {
+    gap: var(--spacing-md);
+  }
+}
