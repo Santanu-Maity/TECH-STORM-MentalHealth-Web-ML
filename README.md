@@ -26,11 +26,11 @@ If needed, the system can book appointments with doctors and send emergency aler
 - Deployment: Netlify / Firebase Hosting / Heroku
 
 ## Team Roles
-- Team Leader + Frontend: [Your Name]
-- Backend Developer: [Name]
-- ML Engineer: [Name]
-- QA & Documentation: [Name]
-- Content Curator: [Name]
+- Team Leader + Frontend: Santanu Maity
+- Backend Developer: Suman Mitra
+- ML Engineer: Ramkrishna Ash
+- QA & Documentation: Sudip Jana
+- Content Curator: Pritish Mondal
 
 ## Installation
 1. Clone the repository
